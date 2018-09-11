@@ -8,7 +8,8 @@ public class MyClassTest {
 
 	@Test
 	public void testMultiply() {
-		fail("Not yet implemented");
+		MyClass tester = new MyClass();
+		assertEquals("Result", 50, tester.multiply(10, 5));
 	}
 
 }
